@@ -9,6 +9,7 @@ class ClientController extends Controller
     private $service;
 
     // Non coupled code.
+
     // public function __construct() {
     //     $this->service = new Service();
     // }

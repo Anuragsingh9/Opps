@@ -15,6 +15,7 @@ class ShowController extends CarController
          echo $obj->brandName($carName);
     }
 
+    ///// Coupling
     public function showService($x,$y){
         $Client = new ClientController(new ServiceController());
         $Client->doSomething($x,$y);
